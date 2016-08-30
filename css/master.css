@@ -1,0 +1,276 @@
+/* StyleSheet
+  Site : aboudiop.com
+  By:  Abou DIOP */
+
+
+/*  ===========
+Basic style
+============ */
+*{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+/*  ===========
+Font @font-face
+============ */
+
+/*  ===========
+Header
+============ */
+.header{
+  background-color: #484848;
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
+  color: #f5a623;
+  padding-bottom: 5%;
+  border-top: 3px solid #f5a623;
+  border-left: 3px solid #f5a623;
+  border-right: 3px solid #f5a623;
+}
+nav{
+  margin-top: 2%;
+}
+.nav__list{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 5px;
+}
+.nav__item{
+  margin-right: 5%;
+}
+.nav__item a{
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #f5a623;
+}
+.header__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+.header__title{
+  padding-top: 2%;
+}
+.header__logo{
+  border-radius: 50%;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.social a{
+  display: block;
+  margin-left: 5px;
+}
+
+.title__section{
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  color: #f5a623;
+  padding: 15px 0;
+}
+.main__projects{
+  background-color: #eee;
+  padding: 30px 0;
+}
+.projects{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project{
+  position: relative;;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 15px;
+  padding: 0 40px;
+}
+.project__link a{
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background: #fff;
+  color: #f5a623;
+}
+.project__link a:hover{
+  background: #f5a623;
+  color: #fff;
+}
+.project__link > a{
+  margin-bottom: 5px;
+}
+.project__infos{
+  min-height: 160px;
+  max-height: 160px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+.title__project{
+  color: #f5a623;
+  font-size: 18px;
+  font-weight: 14px;
+  letter-spacing: 1px;
+}
+.name__project{
+font-size: 16px;
+}
+.desc__project{
+  min-height: 65px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+#project1{
+  background-image: url('../images/hcc.png');
+  background-color: #fff;
+  background-size: cover;
+}
+#project2{
+  background-image: url('../images/sdpis.png');
+  background-color: #fff;
+  background-size: cover;
+}
+#project3{
+  background-image: url('../images/confusio.png');
+  background-color: #fff;
+  background-size: cover;
+}
+#project4{
+  background-image: url('../images/makupbistro.png');
+  background-color: #fff;
+  background-size: cover;
+}
+#project5{
+  background-image: url('../images/confusio.png');
+  background-color: #fff;
+  background-size: cover;
+}
+
+.main__parcours{
+  padding: 0 30px;
+}
+
+.experience, .diplome{
+  width: 100%;
+  margin: 15px auto;
+}
+.title__experience, .title__diplome{
+  font-size: 20px;
+  font-weight: 400;
+  color: #f5a623;
+}
+.date__experience, .lieu__diplome{
+  color: #999;
+  font-size: 19px;
+  font-weight: bolder;
+}
+.taches{
+  margin-left: 30px;
+}
+.taches li{
+  list-style-type: circle;
+  color: #f5a623;
+
+}
+.taches li a{
+  color: #000;
+}
+.comment__experience{
+  color: #999;
+  font-weight: bolder;
+}
+
+
+.main__contact{
+  height: 500px;
+  background-color: #484848;
+}
+
+.form{
+  width: 100%;
+}
+.about{
+  width: 100%;
+}
+form{
+  width: 95%;
+  margin: auto;
+}
+
+label{
+  display: block;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+textarea{
+  width: 100%;
+}
+input[type=submit]{
+  display: block;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #f5a623;
+  font-size: 18px;
+  font-weight: bolder;
+
+}
+input[type=submit]:hover{
+  background-color: #fff;
+  color: #f5a623;
+}
+input, textarea{
+  border: 1px solid #f5a623;
+}
+
+.aboutme{
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+footer{
+  background-color: #f5a623;
+  color: #999;
+}
+footer p{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+}
