@@ -20,7 +20,9 @@ a{
 img{
   max-width: 100%;
 }
+body{
 
+}
 /*  ===========
 Font @font-face
 ============ */
@@ -51,6 +53,7 @@ nav{
   margin-right: 5%;
 }
 .nav__item a{
+  font-family: 'Lato', sans-serif;
   font-size: 1.2em;
   font-weight: lighter;
   color: #f5a623;
@@ -76,8 +79,15 @@ nav{
   display: block;
   margin-left: 5px;
 }
-
+.social__media__img{
+  background-color: #eee;
+  border-radius: 50%;
+}
+.social__media__img:hover{
+  background-color: #f2a623;
+}
 .title__section{
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2em;
   font-weight: 400;
   text-align: center;
@@ -112,10 +122,10 @@ nav{
   background: #fff;
   color: #f5a623;
 }
-.project__link a:hover{
+/*.project__link a:hover{
   background: #f5a623;
   color: #fff;
-}
+}*/
 .project__link > a{
   margin-bottom: 5px;
 }
@@ -205,11 +215,13 @@ font-size: 16px;
   color: #999;
   font-weight: bolder;
 }
-
-
+.link__certificat{
+  display: inline-block;
+  margin-left: 5px;
+}
 .main__contact{
-  height: 500px;
   background-color: #484848;
+  padding-bottom: 50px;
 }
 
 .form{
@@ -232,12 +244,12 @@ label{
   margin-bottom: 10px;
 }
 input{
-  width: 100%;
+  width: 80%;
   height: 40px;
   margin-bottom: 10px;
 }
 textarea{
-  width: 100%;
+  width: 80%;
 }
 input[type=submit]{
   display: block;
@@ -257,12 +269,40 @@ input[type=submit]:hover{
 input, textarea{
   border: 1px solid #f5a623;
 }
-
+.form p{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 2;
+}
+.contact__item{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+.contact__item span{
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+}
+.social__media__footer{
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
 .aboutme{
+  width: 90%;
+  margin: auto;
   padding: 10px;
   color: #fff;
   font-size: 16px;
   line-height: 1.7;
+}
+.about h2{
+  text-align: center;
+  color: #f5a623;
 }
 
 footer{
@@ -273,4 +313,5 @@ footer p{
   text-align: center;
   font-size: 2em;
   font-weight: bolder;
+  padding: 5px;
 }
