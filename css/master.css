@@ -222,6 +222,8 @@ font-size: 16px;
 .main__contact{
   background-color: #484848;
   padding-bottom: 50px;
+  border-left: 3px solid #f5a623;
+  border-right: 3px solid #f5a623;
 }
 
 .form{
