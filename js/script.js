@@ -64,7 +64,7 @@ $('#project4').hover(
     $('#project4').css('background-image', 'url("")');
     $('#project4').css('backgroundColor', '#f5a623');
     $('#project4').css('display', 'flex').css('align-items', 'center').css('justify-content', 'space-around');
-    $('#project4').append('<div class=project__link><a class="a__link">voir le code sur github</a></div>');
+    $('#project4').append('<div class=project__link><a href="https://diopabou.github.io/DavidBistro/" class="a__link" target="_blank">voir le site</a></div>');
   },
   function(){
     $('#project4__infos').css('display', 'block');
