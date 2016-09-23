@@ -50,7 +50,7 @@ $('#project3').hover(
     $('#project3').css('background-image', 'url("")');
     $('#project3').css('backgroundColor', '#f5a623');
     $('#project3').css('display', 'flex').css('align-items', 'center').css('justify-content', 'space-around');
-    $('#project3').append('<div class=project__link><a class="a__link">voir le code sur github</a></div>');
+    $('#project3').append('<div class=project__link><a href="https://diopabou.github.io/confusionResto/" class="a__link">voir le site</a></div>');
   },
   function(){
     $('#project3__infos').css('display', 'block');
@@ -78,7 +78,7 @@ $('#project5').hover(
     $('#project5').css('background-image', 'url("")');
     $('#project5').css('backgroundColor', '#f5a623');
     $('#project5').css('display', 'flex').css('align-items', 'center').css('justify-content', 'space-around');
-    $('#project5').append('<div class=project__link><a class="a__link">voir le code sur github</a></div>');
+    $('#project5').append('<div class=project__link><a href=" https://diopabou.github.io/confusionRestoApp/" class="a__link">voir le site</a></div>');
   },
   function(){
     $('#project5__infos').css('display', 'block');
