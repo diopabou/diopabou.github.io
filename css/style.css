@@ -60,7 +60,7 @@ img{
   height: 500px;
 }
 .header__index{
-  background-image: url('../images/development.jpg');
+  background-image: url('../images/cover_index.jpg');
 }
 .header__about{
   background-image: url('../images/slide2.jpg');
@@ -528,7 +528,7 @@ footer{
 }
 footer p{
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -574,7 +574,7 @@ footer p{
     fill: #fff;
   }
   .social__media__footer{
-    display: none;
+      height: 100px;
   }
   .abou__photo{
     background-image: url('../images/abou__sm.jpg');
